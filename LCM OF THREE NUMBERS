@@ -1,0 +1,9 @@
+a=21
+b=32
+c=12
+big=max(a,b,c)
+while True:
+    if big%a==0 and big%b==0 and big%c==0:
+        print(big)
+        break
+    big=big+1
